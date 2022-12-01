@@ -202,3 +202,32 @@ footer {
         max-width: 20%;
     }
 }
+
+.bio {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.bioImage {
+    padding: 2rem;
+}
+
+.bioImage img {
+    border-radius: 4rem;
+    box-shadow: 10px 10px #000;
+    width: 35%;
+    height: auto;
+}
+
+.bioText {
+    font-size: 1.2rem;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+
+.bioName {
+    color: #fff;
+    font-size: 2.5rem;
+}
