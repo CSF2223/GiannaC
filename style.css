@@ -168,56 +168,22 @@ footer {
     height: 80vh;
 }
 
-
-
-
-@media (min-width: 800px) {
-    .hero {
-        flex-direction: row;
-        justify-content: space-evenly;
-        align-items: center;
-        height: 90vh;
-    }
-    
-    .heroText {
-        font-size: 1rem;
-    }
-    
-    .heroName {
-        font-size: 3.5rem;
-    }
-    
-    .button {
-        font-size: 1.1rem;
-    }
-    
-    .projectGallery {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        flex-wrap: wrap;
-    }
-    
-    .projectCard {
-        max-width: 20%;
-    }
-}
-
 .bio {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
+    height: 90vh;
 }
 
 .bioImage {
-    padding: 2rem;
+    padding: 1rem;
 }
 
 .bioImage img {
-    border-radius: 4rem;
-    box-shadow: 10px 10px #000;
-    width: 35%;
+    border-radius: 3rem;
+    box-shadow: 8px 8px #000;
+    width: 115%;
     height: auto;
 }
 
@@ -230,4 +196,47 @@ footer {
 .bioName {
     color: #fff;
     font-size: 2.5rem;
+}
+
+
+@media (min-width: 800px) {
+    .hero {
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 90vh;
+    }
+
+    .heroText {
+        font-size: 1rem;
+    }
+
+    .heroName {
+        font-size: 3.5rem;
+    }
+
+    .button {
+        font-size: 1.1rem;
+    }
+
+    .projectGallery {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .projectCard {
+        max-width: 20%;
+    }
+
+
+.bio {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 90vh;
+}
+
 }
