@@ -199,6 +199,34 @@ footer {
 }
 
 
+.hhlCard {
+    background-color: #fff;
+    color: #200439;
+    margin: 4rem 3rem;
+    padding: 0.5rem 2rem;
+    text-align: center;
+    border: 1px solid #000;
+    border-radius: 1rem;
+    box-shadow: 10px 10px 5px #000;
+}
+
+.hhlCard img {
+    width: 100%;
+    height: auto;
+    border-radius: 3rem;
+    margin: 1rem 0;
+}
+
+.hhlCard h2 {
+    margin: 0.5rem 1rem 1.5rem 1rem;
+    font-weight: 600;
+}
+
+.hhlCard p {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
 @media (min-width: 800px) {
     .hero {
         flex-direction: row;
@@ -238,5 +266,9 @@ footer {
     align-items: center;
     height: 90vh;
 }
+
+.hhlCard {
+        max-width: 20%;
+    }
 
 }
